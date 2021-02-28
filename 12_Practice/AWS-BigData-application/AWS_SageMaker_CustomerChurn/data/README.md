@@ -1,0 +1,2 @@
+- Row dataset from [Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
+- For AWS modelling purpose, please upload this dataset to S3 bucket. The notebook starts from read in this dataset from S3 bucket.
