@@ -1,7 +1,5 @@
 # Telecom Customer Churn Prediction
 Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers. (Data resource from Kaggle) [Telco Customer Churn Data](https://www.kaggle.com/blastchar/telco-customer-churn/kernels)
-## Author
-- Yiran Jing
 
 
 ## AWS S3 Storage
@@ -44,5 +42,3 @@ In many cases, we want use custom libraries within Lambda function. For example,
 
 
 
-
-### [About Me](https://github.com/YiranJing/AboutMe/blob/master/README.md) 🌱

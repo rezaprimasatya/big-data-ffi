@@ -1,7 +1,5 @@
 # Telecom Customer Churn Prediction
 Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers. (Data resource from Kaggle) [Telco Customer Churn Data](https://www.kaggle.com/blastchar/telco-customer-churn/kernels)
-## Author
-- Yiran Jing
 
 
 ## AWS S3 Storage
@@ -9,7 +7,7 @@ Customer attrition, also known as customer churn, customer turnover, or customer
 
 ## AWS Machine Learning: Amazon SageMaker
 ### Part 1: Data Cheaning and Analysis
-- My way of data cleaning ang data engineering with plot visualization, differ from the Kaggle open resources. Details see: [Data analysis with modelling Notebook](https://github.com/YiranJing/BigDataAnalysis/blob/master/AWS_SageMaker_CustomerChurn/notebook/ChurnDataAnalysis/Churn_Example.ipynb)
+- My way of data cleaning ang data engineering with plot visualization, differ from the Kaggle open resources. Details see: [Data analysis with modelling Notebook]
 
 ### Part 2: Trian and deploy ML model using batch transformation and hosting service
 - The example that how to use **Amazon sageMaker buildin ML model** to train, deploy and validate GXBoost model using **Batch Transformation** for Telecom Customer Churn. Details see: [BuildIn XGBoost Amazon SageMaker Notebook](https://github.com/YiranJing/BigDataAnalysis/blob/master/AWS_SageMaker_CustomerChurn/notebook/AmazonSageMaker/AWS_BUILTIN_MODEL_DEPLOYMENT.ipynb)
@@ -42,7 +40,3 @@ Since the maximum running time for lambda function is 15 mins, to handle the inp
 ### Part 4: Using Custom Library in AWS lambda
 In many cases, we want use custom libraries within Lambda function. For example, using Pandas and Numpy to manupuate dataset (such as clean row data and merge dateset etc.) within Lambda function, then, we need to install Pandas and Numpy in AWS Lambda execution environment. [Click me to see how to do it](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html). The disadvantage of using custom library is that we cannot do in-line coding and debug within Lambda function console, instand, we have to write up lambda function and upload it as a zip file. 
 
-
-
-
-### [About Me](https://github.com/YiranJing/AboutMe/blob/master/README.md) 🌱

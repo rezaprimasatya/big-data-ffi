@@ -1,8 +1,5 @@
 # AWS Lambda with MapReduce
 
-Author: Yiran Jing
-Date: 12 July 2019
-
 ### Motivation
 In the case that we have a **big size dataset**, and using only one lambda function will get **runTimeOut error** since the maximum running time for lambda function is 15 mins. But we do need to process all data, So we have to **split the data into a number of chunks** (which can finish Lambda function in 15 mins). Then we can train a model on each individual chunk. Also, we want this work can be done **automatically**(easily) and **in parallel**(more efficiency).
 
@@ -15,7 +12,3 @@ There is a solution: Build **three lambda functions** for MapReduce algorithm.
 
 
 
-
-
-
-### [About Me](https://github.com/YiranJing/AboutMe/blob/master/README.md) 🌱

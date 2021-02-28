@@ -56,7 +56,3 @@ Using target time series and one additional related time series data for modelli
 ###### Multivariate Time Series Model:
 Using target time series and more than one additional related time series data for modelling. In our case, we can use rainfall, snowfall information for each month and each region to help our predictions for amount in each region each month.
 
-
-### Further discuss about model choice
-
-### [About Me](https://github.com/YiranJing/AboutMe/blob/master/README.md) 🌱
